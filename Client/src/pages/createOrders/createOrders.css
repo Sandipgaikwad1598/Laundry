@@ -1,0 +1,10 @@
+.createOrderContainer {
+  display: flex;
+  width: calc(100% - 4rem);
+}
+
+.main-container {
+  background-color: #FEFFFF;
+  width: calc(100% - 4rem);
+  display: inline-block;
+}

@@ -1,0 +1,170 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 40%;
+  height: 100vh;
+  width: 60%;
+  background-color: white;
+  z-index: 10;
+  font-family: sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup-close {
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.popUpHead {
+  font-size: 30px;
+  background-color: #5861AE;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  padding: 0 18px;
+}
+
+.addressBar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #F4F9FF;
+}
+
+.dropdown {
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  background-color: white;
+}
+
+.dropdown:focus {
+  border: none;
+  border-bottom: 1px solid #5861AE;
+}
+
+.dropdown:focus-visible {
+  outline: none;
+}
+
+.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.storeDetail {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.addressBarContent {
+  width: 30%;
+}
+
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.orderDetailsRow {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding-right: 1rem;
+}
+
+.subTotal {
+  display: flex;
+  justify-content: end; 
+}
+
+.subTotalContent {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 250px;
+  height: 3rem;
+  padding-right: 1rem; 
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.finalPrice {
+  display: flex;
+  justify-content: end;
+  color: #5861ae;
+  font-weight: bold;
+  width: 5rem;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: end;
+  font-size: 1.2rem;
+  height: 3rem;
+  padding: 0;
+}
+
+.priceCalculation {
+  display: flex;
+}
+
+.popupFooter {
+  height: 4rem;
+  background-color: #F4F4F4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.popupFooter > .button {
+  background-color: #5861ae;
+  color: white;
+}
+
+.popupFooter > .button:hover {
+  outline: 1px solid #5861ae;
+}
+
+.addressContainer {
+  padding: 0.5rem 2rem;
+}
+
+.addressCard {
+  height: 6rem;
+  width: 15rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px  rgba(0, 0, 0, 0.5);
+}
+
+.addressCard-content {
+  margin: 0.5rem;
+}
+
+.addressCard-checkedContainer {
+  display: flex;
+  justify-content: space-between;
+}

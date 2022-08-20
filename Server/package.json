@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sachanashutosh15/Laundry-cart-project---server.git"
+    "url": "git+https://github.com/sandipgaikwad1598/Laundry-cart-project---server.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sachanashutosh15/Laundry-cart-project---server/issues"
+    "url": "https://github.com/sandipgaikwad1598/Laundry-cart-project---server/issues"
   },
-  "homepage": "https://github.com/sachanashutosh15/Laundry-cart-project---server#readme",
+  "homepage": "https://github.com/sandipgaikwad1598/Laundry-cart-project---server#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
